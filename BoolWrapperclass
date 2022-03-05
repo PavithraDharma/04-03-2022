@@ -1,0 +1,17 @@
+// Boolean Wrapper classes-Autoboxing,AutoUnboxing
+
+class BoolWrapperclass {
+    public static void main(String[] args) {
+    System.out.println("AutoBoxing bool wrapper class");
+     boolean valid=true;
+     Boolean val=valid;   // Boolean val= Boolean.valueOf(valid);
+     System.out.println(val);
+       
+       
+     System.out.println("----AutoUnboxing bool wrapper class");
+     Boolean invalid= new Boolean(false);
+     boolean val1=invalid.booleanValue();
+     System.out.println(val1);
+       
+    }
+}
