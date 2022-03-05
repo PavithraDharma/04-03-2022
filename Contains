@@ -1,0 +1,8 @@
+// String contains method
+
+class Contains {
+    public static void main(String[] args) {
+        String text="welcome you all";
+        System.out.println(text.contains("you"));
+    }
+}
