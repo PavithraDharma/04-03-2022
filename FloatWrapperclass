@@ -1,0 +1,17 @@
+// Float Wrapper classes-Autoboxing,AutoUnboxing
+
+class FloatWrapperclass {
+    public static void main(String[] args) {
+    System.out.println("AutoBoxing float wrapper class");
+     float d=1.5f;
+      Float f=d;   // Float f=Float.valueOf(d);
+     System.out.println(f);
+       
+       
+     System.out.println("----AutoUnboxing float wrapper class");
+     Float f1=new Float(1.3);
+     float f2=f1.floatValue();   //float f2=f1.floatValue();
+     System.out.println(f2);
+       
+    }
+}
