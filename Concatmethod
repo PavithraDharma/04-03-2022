@@ -1,0 +1,9 @@
+// String concat method
+
+class Concatmethod {
+    public static void main(String[] args) {
+        String text="Pavithra";
+        String text1="Dharma";
+        System.out.println(text.concat(text1));
+    }
+}
