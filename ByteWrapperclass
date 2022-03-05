@@ -1,0 +1,16 @@
+// Byte Wrapper classes-Autoboxing,AutoUnboxing
+
+class ByteWrapperclass {
+    public static void main(String[] args) {
+        System.out.println("AutoBoxing byte wrapper class");
+       byte rank=21;
+        Byte r=rank;       //Byte r=Byte.valueOf(rank);
+       System.out.println(r);
+       
+       System.out.println("----AutoUnboxing byte wrapper class");
+       byte myage=23;
+       Byte age=new Byte(myage);
+       byte age1=age;                          // byte age1=age.byteValue();
+       System.out.println(age1);
+    }
+}
