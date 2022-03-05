@@ -1,0 +1,12 @@
+// String charAt() method
+
+class CharAtMethod {
+    public static void main(String[] args) {
+        String name="Pavithra";
+        System.out.println("first char is= "+name.charAt(0));
+        for(int i=0;i<name.length();i++)
+        {
+            System.out.print(name.charAt(i));
+        }
+    }
+}
