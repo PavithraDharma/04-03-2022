@@ -1,0 +1,115 @@
+// Wrapper class for 8 data types in single program
+
+class Wrapperclass
+{
+    public static void main(String[] args)
+    {
+               //Boolean Wrapper class
+        System.out.println("----Boolean Wrapper class----");
+        
+        System.out.println("1. Boolean autoboxing");
+        boolean valid=true;
+        Boolean boolval=Boolean.valueOf(valid);
+        System.out.println(boolval);
+        
+        System.out.println("2. Boolean autounboxing");
+        Boolean invalid=new Boolean(false);
+        boolean boolval1=invalid.booleanValue();
+        System.out.println(boolval1);
+        
+             
+             // Character Wrapper class
+        System.out.println("\n----Character Wrapper class----");
+        
+        System.out.println("1. Character autoboxing");
+        char ch='a';
+        Character chval=Character.valueOf(ch);
+        System.out.println(chval);
+        
+        System.out.println("2. Character autounboxing");
+        Character ch1=new Character('b');
+        char chval1=ch1.charValue();
+        System.out.println(chval1);
+        
+                     // Byte Wrapper class
+        System.out.println("\n----Byte Wrapper class----");
+        
+        System.out.println("1.Byte autoboxing");
+        byte by=5;
+        Byte byval=Byte.valueOf(by);
+        System.out.println(byval);
+        
+        System.out.println("2.Character autounboxing");
+        byte byval1=3;
+        Byte byval2=new Byte(byval1);
+        byte byval3=byval2.byteValue();
+        System.out.println(byval3);
+        
+                     // Short Wrapper class
+        System.out.println("\n----Short Wrapper class----");
+        
+        System.out.println("1. Short autoboxing");
+        short sh=-230;
+        Short shval=Short.valueOf(sh);
+        System.out.println(shval);
+        
+        System.out.println("2. Short autounboxing");
+        short sh1=120;
+        Short sh2=new Short(sh1);
+        short shval1=sh2.shortValue();
+        System.out.println(shval1);
+        
+                     // Integer Wrapper class
+        System.out.println("\n----Integer Wrapper class----");
+        
+        System.out.println("1. Integer autoboxing");
+        int ival=9999;
+        Integer ival1=Integer.valueOf(ival);
+        System.out.println(ival1);
+        
+        System.out.println("2. Integer autounboxing");
+        Integer ival2=new Integer(8888);
+        int ival3=ival2.intValue();
+        System.out.println(ival3);
+
+                     // Long Wrapper class
+        System.out.println("\n----Long Wrapper class----");
+        
+        System.out.println("1. Long autoboxing");
+        long lval=1234_5678_9012_3456L;
+        Long lval1=Long.valueOf(lval);
+        System.out.println(lval1);
+        
+        System.out.println("2. Long autounboxing");
+        Long lval2=new Long(1234_3456L);
+        long lval3=lval2.longValue();
+        System.out.println(lval3);
+
+                     // Float Wrapper class
+        System.out.println("\n----Float Wrapper class----");
+        
+        System.out.println("1. Float autoboxing");
+        float fval=3.5f;
+        Float fval1=Float.valueOf(fval);
+        System.out.println(fval1);
+        
+        System.out.println("2. Float autounboxing");
+        Float fval2=new Float(1.2);
+        float fval3 = fval2.floatValue();
+        System.out.println(fval3);
+        
+                     // Double Wrapper class
+        System.out.println("\n----Double Wrapper class----");
+        
+        System.out.println("1. Double autoboxing");
+        double dval=9.8;
+        Double dval1=Double.valueOf(dval);
+        System.out.println(dval1);
+        
+        System.out.println("2. Double autounboxing");
+        Double dval2=new Double(2.3);
+        double dval3=dval2.doubleValue();
+        System.out.println(dval3);
+
+    }
+}
