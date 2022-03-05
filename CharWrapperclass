@@ -1,0 +1,15 @@
+// char Wrapper classes-Autoboxing,AutoUnboxing
+
+class CharWrapperclass {
+    public static void main(String[] args) {
+    System.out.println("AutoBoxing char wrapper class");
+    char ch='a';
+    Character ch1=Character.valueOf(ch); // Char ch1=ch;
+    System.out.println(ch1);
+       
+    System.out.println("----AutoUnboxing char wrapper class");
+     Character ch2=new Character('b');
+     char ch3=ch2.charValue();
+     System.out.println(ch3);
+    }
+}
