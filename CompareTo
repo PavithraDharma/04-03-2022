@@ -1,0 +1,32 @@
+/* String compareTo() method 
+   1.If Second string is empty then the method returns the length of first string
+   2.If First string is empty then the method returns the negative value
+   3.If s1 > s2, it returns positive number  (based on ascii)
+     if s1 < s2, it returns negative number  
+     if s1 == s2, it returns 0  
+*/
+
+class CompareTo{  
+public static void main(String args[]){  
+    String s1="Pavi";  
+    String s2="";  
+    String s3="Paffi";  
+    String s4="Dharma";
+    String s5="Pavi";
+    System.out.println(s1.compareTo(s2));  /*
+                          output:4 (s2 string is empty then the method returns the length of first string) */
+    
+    System.out.println(s2.compareTo(s3)); /*
+                          output:-5 (s2 is empty then method returns s2 value with negative value ) */
+                          
+    System.out.println(s1.compareTo(s4)); /* s1=Pavi,s4=Dharma
+                          output:12  (ascii code of P=80 & D=68..first string(P) > (D) second string here..so it returns +ve value and string length);
+                                      */
+                                      
+    System.out.println(s4.compareTo(s1)); /* s4=Dharma,s1=Pavi
+                          output:12  (ascii code of P=80 & D=68..first string (D) < (P) second string here..so it returns -ve value and string length);
+                                      */
+                                
+    System.out.println(s1.compareTo(s5)); /* returns 0 as both strings are  equal  */
+   }
+}
